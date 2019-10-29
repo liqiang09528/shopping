@@ -1,0 +1,6 @@
+server:
+  port: 8888
+
+limit:
+  minaaa: 1
+  maxaaa: 3

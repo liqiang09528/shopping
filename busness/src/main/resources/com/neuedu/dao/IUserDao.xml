@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.neuedu.dao.IUserDao">
+    <!--               map名          类型-->
+    <resultMap id="userMap" type="user">
+        <!--    数据库列名          实体类名      -->
+        <result column="id" property="id"></result>
+        <!--                 实体类名称                           类型                 外键 -->
+        <association property="cart" javaType="com.neuedu.pojo.Cart" column="user_id">
+
+            <!--通过构造函数提交-->
+            <constructor>
+                <arg column="id" javaType="int"></arg>
+                <arg column="user_id" javaType="int"></arg>
+                <arg column="product_id" javaType="int"></arg>
+                <arg column="quantity" javaType="int"></arg>
+                <arg column="checked" javaType="int"></arg>
+                <arg column="create_time" javaType="string"></arg>
+                <arg column="update_time" javaType="string"></arg>
+            </constructor>
+
+        </association>
+
+    </resultMap>
+
+
+    <resultMap id="usermaplist" type="user">
+        <!--           实体类名称                 类型            主外键            泛型-->
+        <collection property="carts" javaType="ArrayList" column="user_id" ofType="com.neuedu.pojo.Cart">
+
+            <result column="quantity" property="quantity"></result>
+        </collection>
+
+
+    </resultMap>
+    <select id="mapselect" resultMap="usermaplist" >
+        select * from neuedu_user as user left join neuedu_cart as cart on user.id=cart.user_id where user.id='21'
+
+    </select>
+    <select id="isexistsUsername" resultType="int" parameterType="string">
+        select count(*) from neuedu_user where username=#{username}
+    </select>
+    <select id="findByUsernameAndPassword" resultType="user">
+        select * from neuedu_user where username=#{username} and password=#{password}
+    </select>
+    <insert id="UserRegister" parameterType="user" useGeneratedKeys="true" keyProperty="id">
+        insert into neuedu_user (username,password,email,phone,question,answer,role,create_time,update_time,ip)
+        values (#{username},#{password},#{email},#{phone},#{question},#{answer},#{role},now(),now(),#{ip})
+    </insert>
+</mapper>
