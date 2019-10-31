@@ -12,13 +12,16 @@ spring:
 
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/shopping?serverTimezone=GMT
-      username: shopping
-      password: 1234
+      username: root
+      password: root
       max-active: 20
       max-wait: 6000
       min-idle: 1
       test-on-borrow: true
       test-on-return: true
+  thymeleaf:
+    mode: HTML5
+
 mybatis:
-  mapper-locations: classpath*/com/neuedu/dao/*Dao.xml
+  mapper-locations:  classpath*:com/neuedu/mapper/*Mapper.xml
   config-location: classpath:MybatisConfig.xml

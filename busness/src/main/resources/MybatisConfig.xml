@@ -6,7 +6,7 @@
 <configuration>
 
 
-    <!--设置别名-->
+<!--    设置别名-->
     <typeAliases>
         <typeAlias type="com.neuedu.pojo.User" alias="user"></typeAlias>
     </typeAliases>
@@ -25,7 +25,7 @@
 <!--    </environments>-->
 
 <!--    <mappers>-->
-<!--        <mapper resource="com/neuedu/dao/IUserDao.xml"></mapper>-->
+<!--        <mapper resource="com/neuedu/mapper/*Mapper.xml"></mapper>-->
 <!--    </mappers>-->
 
 

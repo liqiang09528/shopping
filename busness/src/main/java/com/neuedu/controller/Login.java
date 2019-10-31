@@ -1,6 +1,5 @@
 package com.neuedu.controller;
 
-import com.neuedu.dao.IUserDao;
 import com.neuedu.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,19 +15,19 @@ import java.math.BigDecimal;
 @RestController//返回json
 public class Login {
 
-    @Value("${limit.minaaa}")
-    private BigDecimal min;
-    @Value("${limit.maxaaa}")
-    private BigDecimal max;
-
-    @Autowired
-    IUserDao iUserDao;
-    @RequestMapping(value = "/login")//url
-    public User login(String username, String password){
-
-        System.out.println(username+password);
-        User a = iUserDao.findByUsernameAndPassword(username, password);
-        return a;
-    }
+//    @Value("${limit.minaaa}")
+//    private BigDecimal min;
+//    @Value("${limit.maxaaa}")
+//    private BigDecimal max;
+//
+//    @Autowired
+//    IUserDao iUserDao;
+//    @RequestMapping(value = "/login")//url
+//    public User login(String username, String password){
+//
+//        System.out.println(username+password);
+//        User a = iUserDao.findByUsernameAndPassword(username, password);
+//        return a;
+//    }
 
 }

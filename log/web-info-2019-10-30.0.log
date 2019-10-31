@@ -1,0 +1,649 @@
+2019-10-30 08:19:38.440 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:19:38.452 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:19:38.508 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 56 ms
+2019-10-30 08:23:52.306 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 12560 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:23:52.310 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:23:53.850 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:23:53.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:23:53.864 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:23:53.865 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:23:53.975 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:23:53.976 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1569 ms
+2019-10-30 08:23:54.086 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:23:54.244 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:23:54.736 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:23:54.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:23:54.958 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:23:54.961 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.467 seconds (JVM running for 4.719)
+2019-10-30 08:24:00.601 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:24:00.601 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:24:00.607 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 08:25:46.969 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 17876 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:25:46.975 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:25:48.655 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:25:48.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:25:48.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:25:48.668 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:25:48.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:25:48.781 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1708 ms
+2019-10-30 08:25:48.914 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:25:49.069 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:25:49.480 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:25:49.675 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:25:49.706 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:25:49.710 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.797 seconds (JVM running for 5.427)
+2019-10-30 08:25:57.025 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:25:57.025 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:25:57.032 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 08:26:30.681 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 15872 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:26:30.687 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:26:32.300 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:26:32.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:26:32.315 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:26:32.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:26:32.418 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:26:32.418 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1626 ms
+2019-10-30 08:26:32.559 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:26:32.738 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:27:02.893 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:27:38.934 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 21408 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:27:38.938 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:27:40.423 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:27:40.435 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:27:40.441 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:27:40.442 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:27:40.558 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:27:40.559 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1530 ms
+2019-10-30 08:27:40.661 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:27:40.809 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:27:41.220 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:27:41.413 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:27:41.438 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:27:41.441 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.321 seconds (JVM running for 4.689)
+2019-10-30 08:29:07.871 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:29:07.873 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:29:07.886 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-10-30 08:29:20.750 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 15104 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:29:20.773 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:29:22.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:29:22.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:29:22.323 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:29:22.323 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:29:22.425 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:29:22.425 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1560 ms
+2019-10-30 08:29:22.526 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:29:22.680 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:29:23.079 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:29:23.279 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:29:23.303 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:29:23.306 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.457 seconds (JVM running for 4.981)
+2019-10-30 08:29:31.781 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:29:31.781 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:29:31.789 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 08:31:20.114 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 19940 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:31:20.118 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:31:21.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:31:21.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:31:21.577 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:31:21.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:31:21.690 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:31:21.690 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1493 ms
+2019-10-30 08:31:21.803 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:31:21.949 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:31:22.386 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:31:22.585 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:31:22.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:31:22.614 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.34 seconds (JVM running for 4.58)
+2019-10-30 08:31:27.333 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:31:27.333 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:31:27.338 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-30 08:32:33.989 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 18164 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:32:33.992 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:32:35.473 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:32:35.484 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:32:35.485 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:32:35.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:32:35.603 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:32:35.604 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1539 ms
+2019-10-30 08:32:35.723 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:32:35.920 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:32:36.361 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:32:36.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:32:36.582 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:32:36.586 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.413 seconds (JVM running for 4.713)
+2019-10-30 08:32:49.497 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:32:49.498 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:32:49.506 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 08:39:47.518 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 10776 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:39:47.522 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:39:48.959 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:39:48.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:39:48.972 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:39:48.973 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:39:49.104 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:39:49.104 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1495 ms
+2019-10-30 08:39:49.233 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:39:49.379 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:39:49.786 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:39:50.004 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:39:50.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:39:50.043 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.314 seconds (JVM running for 4.478)
+2019-10-30 08:39:54.918 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:39:54.918 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:39:54.925 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 08:41:43.179 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 1956 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:41:43.184 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:41:45.400 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:41:45.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:41:45.412 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:41:45.413 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:41:45.524 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:41:45.524 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2074 ms
+2019-10-30 08:41:45.614 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:41:45.763 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:41:46.163 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:41:46.363 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:41:46.393 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:41:46.398 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.069 seconds (JVM running for 5.488)
+2019-10-30 08:41:51.480 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:41:51.480 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:41:51.488 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 08:42:24.322 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 12008 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:42:24.326 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:42:25.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:42:25.771 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:42:25.772 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:42:25.773 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:42:25.882 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:42:25.883 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1478 ms
+2019-10-30 08:42:25.999 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:42:26.197 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:42:26.682 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:42:26.904 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:42:26.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:42:26.932 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.401 seconds (JVM running for 4.578)
+2019-10-30 08:42:32.865 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:42:32.866 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:42:32.872 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 08:43:03.339 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 6792 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:43:03.344 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:43:04.797 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:43:04.811 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:43:04.812 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:43:04.813 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:43:04.917 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:43:04.917 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1482 ms
+2019-10-30 08:43:05.038 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:43:05.198 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:43:05.649 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:43:05.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:43:05.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:43:05.905 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.423 seconds (JVM running for 4.578)
+2019-10-30 08:43:09.616 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:43:09.617 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:43:09.623 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 08:44:07.527 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 18296 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:44:07.531 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:44:08.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:44:08.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:44:08.960 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:44:08.960 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:44:09.075 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:44:09.075 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1471 ms
+2019-10-30 08:44:09.171 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:44:09.314 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:44:09.808 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:44:10.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:44:10.039 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:44:10.044 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.299 seconds (JVM running for 4.669)
+2019-10-30 08:44:13.281 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:44:13.282 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:44:13.290 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 08:49:46.550 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 14364 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:49:46.554 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:49:47.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:49:47.965 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:49:47.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:49:47.967 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:49:48.068 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:49:48.068 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1437 ms
+2019-10-30 08:49:48.168 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:49:48.326 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:49:48.770 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:49:48.963 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:49:48.987 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:49:48.990 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.286 seconds (JVM running for 4.609)
+2019-10-30 08:50:01.356 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:50:01.356 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:50:01.364 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 08:53:06.191 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 3356 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:53:06.195 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:53:07.662 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:53:07.670 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:53:07.671 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:53:07.672 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:53:07.782 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:53:07.782 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1512 ms
+2019-10-30 08:53:07.894 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:53:08.033 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:53:08.274 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 08:53:08.278 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 08:53:08.292 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 08:54:31.784 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 2476 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:54:31.788 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:54:33.369 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:54:33.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:54:33.384 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:54:33.384 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:54:33.500 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:54:33.500 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1636 ms
+2019-10-30 08:54:33.600 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:54:33.746 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:54:34.118 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:54:34.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:54:34.340 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:54:34.345 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.34 seconds (JVM running for 4.607)
+2019-10-30 08:54:40.524 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:54:40.525 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:54:40.532 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 08:56:10.403 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 19828 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 08:56:10.407 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 08:56:11.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 08:56:12.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:56:12.007 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 08:56:12.007 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 08:56:12.140 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 08:56:12.140 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1649 ms
+2019-10-30 08:56:12.270 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 08:56:12.440 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 08:56:12.829 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 08:56:13.031 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 08:56:13.054 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 08:56:13.057 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.496 seconds (JVM running for 4.613)
+2019-10-30 08:56:18.140 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 08:56:18.141 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 08:56:18.147 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 09:00:14.839 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 6884 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:00:14.843 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:00:16.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:00:16.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:00:16.621 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:00:16.622 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:00:16.735 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:00:16.735 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1806 ms
+2019-10-30 09:00:16.824 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:00:16.983 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:00:17.363 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:00:17.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:00:17.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:00:17.594 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.566 seconds (JVM running for 4.725)
+2019-10-30 09:00:28.012 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:00:28.013 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:00:28.020 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 09:01:13.130 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 1416 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:01:13.134 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:01:14.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:01:14.563 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:01:14.564 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:01:14.564 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:01:14.673 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:01:14.674 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1456 ms
+2019-10-30 09:01:14.771 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:01:14.936 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:01:15.286 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:01:15.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:01:15.504 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:01:15.507 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.184 seconds (JVM running for 4.289)
+2019-10-30 09:02:01.366 [http-nio-8888-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:02:01.367 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:02:01.373 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-30 09:06:51.391 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 19124 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:06:51.406 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:06:52.867 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:06:52.880 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:06:52.881 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:06:52.882 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:06:53.019 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:06:53.020 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1473 ms
+2019-10-30 09:06:53.132 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:06:53.275 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:06:53.527 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:06:53.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:06:53.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:06:53.838 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.191 seconds (JVM running for 4.341)
+2019-10-30 09:06:59.666 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:06:59.667 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:06:59.674 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 09:11:45.445 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 17316 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:11:45.448 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:11:46.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:11:46.905 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:11:46.906 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:11:46.907 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:11:47.015 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:11:47.016 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1501 ms
+2019-10-30 09:11:47.121 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:11:47.276 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:11:47.651 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:11:47.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:11:47.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:11:47.886 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.255 seconds (JVM running for 4.406)
+2019-10-30 09:11:52.826 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:11:52.827 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:11:52.834 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 09:16:14.388 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 19028 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:16:14.393 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:16:16.216 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:16:16.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:16:16.229 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:16:16.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:16:16.361 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:16:16.362 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1881 ms
+2019-10-30 09:16:16.493 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:16:16.642 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:16:16.975 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:16:17.176 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:16:17.200 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:16:17.204 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.651 seconds (JVM running for 4.868)
+2019-10-30 09:16:20.717 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:16:20.717 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:16:20.724 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 09:19:19.761 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 21464 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:19:19.765 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:19:21.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:19:21.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:19:21.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:19:21.135 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:19:21.245 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:19:21.245 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1394 ms
+2019-10-30 09:19:21.342 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:19:21.490 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:19:21.861 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:19:22.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:19:22.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:19:22.106 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.173 seconds (JVM running for 4.3)
+2019-10-30 09:19:46.123 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:19:46.124 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:19:46.131 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 09:22:26.484 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 10100 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:22:26.488 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:22:27.903 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:22:27.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:22:27.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:22:27.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:22:28.040 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:22:28.040 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1478 ms
+2019-10-30 09:22:28.147 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:22:28.304 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:22:28.516 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 09:22:28.519 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 09:22:28.532 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 09:23:39.959 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 20732 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 09:23:39.965 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 09:23:41.571 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 09:23:41.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:23:41.584 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 09:23:41.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 09:23:41.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 09:23:41.690 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1637 ms
+2019-10-30 09:23:41.788 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 09:23:41.939 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 09:23:42.332 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 09:23:42.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 09:23:42.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 09:23:42.563 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.428 seconds (JVM running for 4.765)
+2019-10-30 09:24:02.734 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 09:24:02.734 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 09:24:02.740 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 12:47:00.046 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 9172 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 12:47:00.053 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 12:47:01.711 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 12:47:01.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:47:01.740 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 12:47:01.740 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 12:47:01.870 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 12:47:01.870 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1729 ms
+2019-10-30 12:47:01.960 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 12:47:02.108 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 12:47:02.482 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 12:47:02.715 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:47:02.743 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 12:47:02.747 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.524 seconds (JVM running for 4.696)
+2019-10-30 12:47:16.198 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 12:47:16.198 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 12:47:16.204 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 12:49:37.582 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 16248 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 12:49:37.587 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 12:49:39.095 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 12:49:39.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:49:39.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 12:49:39.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 12:49:39.277 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 12:49:39.277 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1593 ms
+2019-10-30 12:49:39.389 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 12:49:39.548 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 12:49:40.121 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 12:49:40.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:49:40.339 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 12:49:40.343 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.555 seconds (JVM running for 4.681)
+2019-10-30 12:49:46.370 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 12:49:46.371 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 12:49:46.378 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 12:52:30.323 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 1220 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 12:52:30.335 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 12:52:32.328 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 12:52:32.367 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:52:32.386 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 12:52:32.387 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 12:52:32.634 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 12:52:32.634 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2172 ms
+2019-10-30 12:52:32.779 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 12:52:32.980 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 12:52:33.607 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 12:52:33.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:52:33.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 12:52:33.913 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.778 seconds (JVM running for 6.458)
+2019-10-30 12:53:15.424 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 12:53:15.425 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 12:53:15.435 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-10-30 12:53:26.410 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 12:53:26.415 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 12:53:30.119 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 4008 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 12:53:30.130 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 12:53:32.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 12:53:32.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:53:32.117 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 12:53:32.117 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 12:53:32.230 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 12:53:32.231 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1931 ms
+2019-10-30 12:53:32.372 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 12:53:32.542 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 12:53:36.194 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 12428 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 12:53:36.203 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 12:53:38.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 12:53:38.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:53:38.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 12:53:38.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 12:53:38.421 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 12:53:38.421 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2118 ms
+2019-10-30 12:53:38.556 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 12:53:38.725 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 12:53:39.309 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 12:53:39.565 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 12:53:39.597 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 12:53:39.602 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.495 seconds (JVM running for 6.064)
+2019-10-30 12:53:53.110 [http-nio-8888-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 12:53:53.112 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 12:53:53.120 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 13:03:26.712 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 13:03:26.716 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 13:03:33.333 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 16628 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 13:03:33.337 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 13:03:34.833 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 13:03:34.842 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 13:03:34.843 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 13:03:34.844 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 13:03:34.947 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 13:03:34.948 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1514 ms
+2019-10-30 13:03:35.035 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 13:03:35.217 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 13:03:35.754 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 13:03:35.965 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 13:03:35.989 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 13:03:35.993 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.498 seconds (JVM running for 4.681)
+2019-10-30 13:03:47.843 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 13:03:47.843 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 13:03:47.851 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 14:08:28.440 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 13564 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 14:08:28.444 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 14:08:30.022 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 14:08:30.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 14:08:30.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 14:08:30.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 14:08:30.171 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 14:08:30.172 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1659 ms
+2019-10-30 14:08:30.290 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 14:08:30.435 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 14:08:30.999 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 14:08:31.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 14:08:31.262 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 14:08:31.265 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.626 seconds (JVM running for 4.838)
+2019-10-30 14:08:52.452 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 14:08:52.452 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 14:08:52.458 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-30 20:23:53.904 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 17352 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:23:53.910 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:23:56.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:23:56.126 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:23:56.127 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:23:56.128 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:23:56.344 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:23:56.344 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2322 ms
+2019-10-30 20:23:56.482 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:23:56.687 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:23:57.096 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 20:23:57.098 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 20:23:57.110 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 20:26:09.836 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 21116 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:26:09.840 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:26:11.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:26:11.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:26:11.521 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:26:11.521 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:26:11.679 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:26:11.680 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1747 ms
+2019-10-30 20:26:11.782 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:26:11.941 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:26:12.323 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 20:26:12.327 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 20:26:12.338 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 20:28:08.667 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 13172 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:28:08.672 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:28:10.128 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:28:10.141 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:28:10.142 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:28:10.142 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:28:10.291 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:28:10.291 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1535 ms
+2019-10-30 20:28:10.404 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:28:10.562 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:28:11.050 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:28:11.112 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:28:11.114 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 20:28:11.118 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 20:28:11.129 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 20:29:33.965 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 7472 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:29:33.970 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:29:36.055 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:29:36.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:29:36.067 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:29:36.067 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:29:36.198 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:29:36.198 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2146 ms
+2019-10-30 20:29:36.299 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:29:36.467 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:29:36.987 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:29:37.043 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:29:37.044 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-30 20:29:37.047 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-30 20:29:37.059 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-30 20:31:25.261 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 22224 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:31:25.265 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:31:26.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:31:26.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:31:26.777 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:31:26.777 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:31:26.923 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:31:26.923 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1578 ms
+2019-10-30 20:31:27.029 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:31:27.173 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:31:27.698 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:31:27.932 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:31:27.959 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 20:31:27.963 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.545 seconds (JVM running for 4.81)
+2019-10-30 20:31:35.629 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 20:31:35.629 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 20:31:35.635 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-30 20:32:32.162 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 19752 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:32:32.167 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:32:33.655 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:32:33.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:32:33.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:32:33.668 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:32:33.815 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:32:33.815 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1569 ms
+2019-10-30 20:32:33.923 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:32:34.086 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:32:34.639 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:32:34.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:32:34.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 20:32:34.864 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.538 seconds (JVM running for 4.761)
+2019-10-30 20:32:40.698 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 20:32:40.699 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 20:32:40.708 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-30 20:38:10.295 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 22948 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:38:10.300 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:38:11.853 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:38:11.864 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:38:11.865 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:38:11.865 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:38:12.014 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:38:12.015 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1650 ms
+2019-10-30 20:38:12.123 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:38:12.299 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:38:12.791 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:38:12.981 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:38:13.006 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 20:38:13.010 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.576 seconds (JVM running for 4.839)
+2019-10-30 20:38:18.418 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 20:38:18.419 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 20:38:18.427 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-30 20:39:06.228 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 8152 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-10-30 20:39:06.232 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-10-30 20:39:07.689 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-30 20:39:07.698 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:39:07.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-30 20:39:07.700 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-30 20:39:07.869 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-30 20:39:07.869 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1561 ms
+2019-10-30 20:39:07.965 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-10-30 20:39:08.120 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-30 20:39:08.637 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-30 20:39:08.859 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-30 20:39:08.886 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-30 20:39:08.890 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 3.553 seconds (JVM running for 4.869)
+2019-10-30 20:40:45.214 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-30 20:40:45.215 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-30 20:40:45.223 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
