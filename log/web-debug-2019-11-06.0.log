@@ -1,0 +1,156 @@
+2019-11-06 14:14:59.832 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:14:59.871 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:14:59.969 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:14:59.981 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:14:59.982 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:14:59.988 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:16:03.500 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:16:03.501 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:16:03.503 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:16:03.516 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:16:03.517 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:16:03.520 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:16:49.879 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:16:49.881 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:16:49.884 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:16:49.897 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:16:49.897 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:16:49.901 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:21:53.620 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:21:53.651 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:21:53.678 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:21:53.688 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:21:53.689 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:21:53.693 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:23:45.242 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:23:45.244 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:23:45.246 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:23:45.257 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:23:45.257 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:23:45.262 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:26:39.971 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:26:39.972 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:26:39.974 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:26:39.983 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:26:39.983 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:26:39.987 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:32:00.635 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:32:00.636 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:32:00.638 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:32:00.650 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:32:00.651 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:32:00.654 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:32:14.177 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:32:14.178 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:32:14.179 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:32:14.191 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:32:14.191 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:32:14.194 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:33:00.736 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:33:00.737 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:33:00.740 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:33:00.748 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:33:00.749 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:33:00.751 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:33:30.841 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:33:30.841 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:33:30.843 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:33:30.851 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:33:30.851 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:33:30.854 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:34:33.297 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:34:33.298 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:34:33.299 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:34:33.309 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:34:33.310 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:34:33.314 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:35:34.880 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:35:34.881 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:35:34.883 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:35:34.890 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:35:34.891 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:35:34.892 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:35:36.125 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:35:36.126 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:35:36.127 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:35:36.136 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:35:36.137 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:35:36.139 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:35:36.334 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:35:36.335 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:35:36.337 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:35:36.348 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:35:36.349 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:35:36.352 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:36:18.393 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:36:18.394 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:36:18.396 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:36:18.404 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:36:18.404 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:36:18.407 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:36:42.622 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:36:42.622 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:36:42.624 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:36:42.635 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:36:42.637 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:36:42.638 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:36:45.014 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:36:45.015 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:36:45.017 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:36:45.029 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:36:45.029 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:36:45.032 [http-nio-8888-exec-9] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:36:45.883 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:36:45.884 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:36:45.885 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:36:45.898 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:36:45.898 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:36:45.900 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:36:46.797 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:36:46.798 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:36:46.799 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:36:46.829 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:36:46.830 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:36:46.837 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:41.081 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:41.082 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:41.083 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:41.090 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:41.090 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:41.092 [http-nio-8888-exec-6] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:41.659 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:41.660 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:41.661 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:41.669 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:41.669 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:41.671 [http-nio-8888-exec-5] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:41.834 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:41.835 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:41.837 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:41.847 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:41.847 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:41.849 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:42.010 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:42.010 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:42.012 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:42.019 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:42.020 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:42.022 [http-nio-8888-exec-4] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:52.268 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:52.269 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:52.270 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:52.279 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:52.280 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:52.281 [http-nio-8888-exec-8] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:50:55.814 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:50:55.815 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:50:55.816 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:50:55.825 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:50:55.825 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:50:55.827 [http-nio-8888-exec-7] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-06 14:52:54.720 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-06 14:52:54.721 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-06 14:52:54.722 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-06 14:52:54.729 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-06 14:52:54.730 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-06 14:52:54.731 [http-nio-8888-exec-10] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1

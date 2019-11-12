@@ -1,0 +1,180 @@
+2019-11-04 16:51:50.397 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 16:51:50.436 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 16:51:50.487 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 16:51:50.501 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 16:51:50.502 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 16:51:50.507 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 16:51:59.373 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 16:51:59.388 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 16:51:59.395 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 16:53:38.197 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 16:53:38.229 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 16:53:38.261 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 16:53:38.275 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 16:53:38.276 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 16:53:38.280 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 16:53:41.182 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 16:53:41.185 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 16:53:41.188 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 16:53:41.202 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 16:53:41.203 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 16:53:41.211 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 16:53:58.708 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 16:53:58.708 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 16:53:58.711 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 16:53:58.722 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 16:53:58.723 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 16:53:58.725 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 16:56:02.923 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 16:56:02.924 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 16:56:02.928 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 16:56:02.941 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 16:56:02.941 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 16:56:02.944 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 17:46:03.186 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 17:46:03.193 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 17:46:03.209 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 17:46:03.225 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 17:46:03.226 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 17:46:03.230 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 17:46:06.262 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 17:46:06.263 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 17:46:06.268 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 17:46:06.285 [http-nio-8888-exec-1] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 17:46:06.285 [http-nio-8888-exec-1] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 17:46:06.289 [http-nio-8888-exec-1] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 17:55:32.685 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 17:55:32.728 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 17:55:32.763 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 17:55:32.779 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 17:55:32.780 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 17:55:32.784 [http-nio-8888-exec-3] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 18:43:34.776 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 18:43:34.805 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 18:43:34.838 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 18:43:34.850 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 18:43:34.851 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 18:43:34.854 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 18:43:38.926 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 18:43:38.929 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 18:43:38.933 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 18:43:38.944 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 18:43:38.945 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 18:43:38.948 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 19:01:27.847 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 19:01:27.887 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 19:01:27.924 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 19:01:27.940 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 19:01:27.941 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 19:01:27.944 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 19:01:29.825 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:01:29.828 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 19:01:29.832 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:01:29.846 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:01:29.846 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 19:01:29.849 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 19:02:19.013 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:02:19.014 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 19:02:19.018 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:02:19.028 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:02:19.028 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795536999(Long)
+2019-11-04 19:02:19.030 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 19:03:15.607 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:03:15.608 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 19:03:15.611 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:03:15.621 [http-nio-8888-exec-5] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:03:15.621 [http-nio-8888-exec-5] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793344548(Long)
+2019-11-04 19:03:15.623 [http-nio-8888-exec-5] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 19:03:29.415 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:03:29.416 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793495319(Long)
+2019-11-04 19:03:29.425 [http-nio-8888-exec-6] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:03:29.434 [http-nio-8888-exec-6] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:03:29.436 [http-nio-8888-exec-6] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793495319(Long)
+2019-11-04 19:03:29.437 [http-nio-8888-exec-6] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 19:03:38.297 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:03:38.298 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793780260(Long)
+2019-11-04 19:03:38.300 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:03:38.308 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:03:38.309 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793780260(Long)
+2019-11-04 19:03:38.310 [http-nio-8888-exec-7] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 19:03:45.942 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:03:45.942 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793912183(Long)
+2019-11-04 19:03:45.944 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:03:45.954 [http-nio-8888-exec-8] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:03:45.955 [http-nio-8888-exec-8] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793912183(Long)
+2019-11-04 19:03:45.957 [http-nio-8888-exec-8] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 0
+2019-11-04 19:03:52.517 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:03:52.518 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572793955105(Long)
+2019-11-04 19:03:52.520 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:03:52.529 [http-nio-8888-exec-9] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:03:52.530 [http-nio-8888-exec-9] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572793955105(Long)
+2019-11-04 19:03:52.536 [http-nio-8888-exec-9] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 4
+2019-11-04 19:12:45.417 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 19:12:45.447 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 19:12:45.474 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 19:12:45.488 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 19:12:45.488 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 19:12:45.493 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 19:12:49.177 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 19:12:49.179 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572794025883(Long)
+2019-11-04 19:12:49.183 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 19:12:49.196 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 19:12:49.197 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572794025883(Long)
+2019-11-04 19:12:49.202 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 4
+2019-11-04 20:00:44.830 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 20:00:44.859 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 20:00:44.888 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 20:00:44.901 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 20:00:44.901 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 20:00:44.906 [http-nio-8888-exec-2] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 20:01:10.168 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:01:10.170 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572794641234(Long)
+2019-11-04 20:01:10.175 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:01:10.187 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 20:01:10.188 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572794641234(Long)
+2019-11-04 20:01:10.191 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 20:03:27.829 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 20:03:27.857 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 20:03:27.886 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 20:03:27.898 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 20:03:27.899 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 20:03:27.903 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 20:03:30.988 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:03:30.990 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572794641234(Long)
+2019-11-04 20:03:30.994 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:03:31.004 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 20:03:31.005 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572794641234(Long)
+2019-11-04 20:03:31.009 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 20:04:04.130 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:04:04.130 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572794928280(Long)
+2019-11-04 20:04:04.134 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:04:04.143 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 20:04:04.144 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572794928280(Long)
+2019-11-04 20:04:04.146 [http-nio-8888-exec-3] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 20:08:42.551 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==>  Preparing: select count(username) from neuedu_user where username=? 
+2019-11-04 20:08:42.581 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - ==> Parameters: admin(String)
+2019-11-04 20:08:42.610 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.isExistsUsername - <==      Total: 1
+2019-11-04 20:08:42.621 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+2019-11-04 20:08:42.621 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - ==> Parameters: admin(String), bdb6d566b450905606bde770c6cb92e8(String)
+2019-11-04 20:08:42.626 [http-nio-8888-exec-1] DEBUG c.n.dao.UserMapper.findUserByUsernameAndPassword - <==      Total: 1
+2019-11-04 20:09:01.167 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:09:01.169 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795207669(Long)
+2019-11-04 20:09:01.172 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:09:01.183 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==>  Preparing: select id, user_id, order_no, product_id, product_name, product_image, current_unit_price, quantity, total_price, create_time, update_time from neuedu_order_item where order_no=? 
+2019-11-04 20:09:01.183 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - ==> Parameters: 1572795207669(Long)
+2019-11-04 20:09:01.186 [http-nio-8888-exec-4] DEBUG c.n.dao.Order_itemMapper.findOrderItemByOrderNo - <==      Total: 1
+2019-11-04 20:09:14.871 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:09:14.872 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795207669(Long)
+2019-11-04 20:09:14.875 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:09:14.913 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - ==>  Preparing: insert into neuedu_payinfo ( user_id, order_no, pay_platform, platform_number, platform_status, create_time, update_time ) values ( ?, ?, ?, ?, ?, now(),now() ) 
+2019-11-04 20:09:14.915 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - ==> Parameters: 22(Integer), 1572795207669(Long), 1(Integer), 2019110422001415241000070565(String), WAIT_BUYER_PAY(String)
+2019-11-04 20:09:14.957 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - <==    Updates: 1
+2019-11-04 20:09:21.936 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==>  Preparing: select id, user_id, order_no, shipping_id, payment, payment_type, postage, status, payment_time, send_time, end_time, close_time, create_time, update_time from neuedu_order where order_no=? 
+2019-11-04 20:09:21.936 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - ==> Parameters: 1572795207669(Long)
+2019-11-04 20:09:21.939 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.OrderMapper.findOrderByOrderNo - <==      Total: 1
+2019-11-04 20:09:22.008 [http-nio-8888-exec-5] DEBUG c.n.dao.OrderMapper.updateByPrimaryKeySelective - ==>  Preparing: update neuedu_order SET user_id = ?, order_no = ?, shipping_id = ?, payment = ?, payment_type = ?, postage = ?, status = ?, payment_time = ?, update_time = now() where id = ? 
+2019-11-04 20:09:22.011 [http-nio-8888-exec-5] DEBUG c.n.dao.OrderMapper.updateByPrimaryKeySelective - ==> Parameters: 22(Integer), 1572795207669(Long), 32(Integer), 1780.00(BigDecimal), 1(Integer), 0(Integer), 20(Integer), 2019-11-04 20:09:22.0(Timestamp), 111(Integer)
+2019-11-04 20:09:22.028 [http-nio-8888-exec-5] DEBUG c.n.dao.OrderMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-11-04 20:09:22.036 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - ==>  Preparing: insert into neuedu_payinfo ( user_id, order_no, pay_platform, platform_number, platform_status, create_time, update_time ) values ( ?, ?, ?, ?, ?, now(),now() ) 
+2019-11-04 20:09:22.037 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - ==> Parameters: 22(Integer), 1572795207669(Long), 1(Integer), 2019110422001415241000070565(String), TRADE_SUCCESS(String)
+2019-11-04 20:09:22.047 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.PayinfoMapper.insertSelective - <==    Updates: 1

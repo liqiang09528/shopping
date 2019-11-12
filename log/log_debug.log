@@ -1,0 +1,366 @@
+2019-11-12 08:36:25.289 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 08:36:25.326 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 08:36:26.255 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 08:36:26.330 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 08:36:26.333 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 08:36:26.352 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 08:36:26.362 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 08:36:26.363 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 08:36:26.365 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 08:36:26.374 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 08:36:26.375 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 08:36:26.377 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 08:36:26.388 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 08:36:26.388 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 08:36:26.391 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 08:36:26.402 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 08:36:26.403 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 08:36:26.405 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 10:22:46.352 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 10:22:46.366 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 10:22:47.216 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 10:22:47.239 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 10:22:47.240 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 10:22:47.244 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 10:22:47.259 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 10:22:47.259 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 10:22:47.261 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 10:22:47.276 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 10:22:47.277 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 10:22:47.279 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 10:22:47.291 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 10:22:47.292 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 10:22:47.294 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 10:22:47.310 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 10:22:47.310 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 10:22:47.313 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:06:24.733 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:06:24.734 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:06:25.460 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:06:25.472 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:06:25.473 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:06:25.477 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:06:25.489 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:06:25.490 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:06:25.491 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:06:25.505 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:06:25.506 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:06:25.510 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:06:25.526 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:06:25.527 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:06:25.530 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:06:25.545 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:06:25.545 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:06:25.552 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:07:49.786 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:07:49.786 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:07:50.497 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:07:50.512 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:50.514 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:07:50.516 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:50.535 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:50.536 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:07:50.538 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:50.551 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:50.551 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:07:50.553 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:50.564 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:50.564 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:07:50.565 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:50.576 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:50.577 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:07:50.579 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:07:53.900 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:07:53.901 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:07:54.637 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:07:54.649 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:54.650 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:07:54.652 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:54.665 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:54.666 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:07:54.667 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:54.677 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:54.677 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:07:54.679 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:54.690 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:54.691 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:07:54.693 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:54.703 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:54.704 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:07:54.706 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:07:55.174 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:07:55.176 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:07:55.889 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:07:55.901 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:55.901 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:07:55.905 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:55.915 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:55.915 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:07:55.916 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:55.925 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:55.926 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:07:55.928 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:55.936 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:55.936 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:07:55.937 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:07:55.947 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:07:55.947 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:07:55.949 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:08:00.572 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:08:00.573 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:08:01.316 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:08:01.324 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:01.325 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:08:01.328 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:01.400 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:01.401 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:08:01.402 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:01.411 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:01.411 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:08:01.413 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:01.423 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:01.424 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:08:01.425 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:01.434 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:01.435 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:08:01.437 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:08:41.084 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:08:41.085 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:08:41.819 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:08:41.830 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:41.831 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:08:41.834 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:41.847 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:41.847 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:08:41.849 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:41.856 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:41.857 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:08:41.858 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:41.867 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:41.867 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:08:41.869 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:08:41.879 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:08:41.879 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:08:41.880 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:09:24.276 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:09:24.276 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:09:25.046 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:09:25.057 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:25.057 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:09:25.060 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:25.073 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:25.074 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:09:25.075 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:25.087 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:25.088 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:09:25.088 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:25.105 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:25.105 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:09:25.107 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:25.120 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:25.120 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:09:25.122 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:09:25.547 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:09:25.547 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:09:26.272 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:09:26.283 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:26.283 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:09:26.286 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:26.294 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:26.295 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:09:26.296 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:26.308 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:26.309 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:09:26.310 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:26.323 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:26.323 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:09:26.324 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:26.343 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:26.344 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:09:26.345 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:09:32.515 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:09:32.516 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:09:33.216 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:09:33.227 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:33.228 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:09:33.231 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:33.239 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:33.239 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:09:33.240 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:33.250 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:33.250 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:09:33.252 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:33.263 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:33.264 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:09:33.265 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:09:33.277 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:09:33.277 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:09:33.278 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:10:17.300 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:10:17.300 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:10:18.005 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 5
+2019-11-12 11:10:18.017 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:10:18.018 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:10:18.021 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:10:18.032 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:10:18.033 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:10:18.034 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:10:18.046 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:10:18.046 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:10:18.047 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:10:18.056 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:10:18.056 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:10:18.058 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:10:18.070 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:10:18.070 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 100032(Integer)
+2019-11-12 11:10:18.071 [http-nio-8888-exec-5] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 1
+2019-11-12 11:13:29.368 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:13:29.368 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:13:30.110 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:13:30.124 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:30.124 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:13:30.127 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:30.140 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:30.140 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:13:30.141 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:30.155 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:30.155 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:13:30.156 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:30.167 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:30.168 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:13:30.169 [http-nio-8888-exec-7] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:33.586 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:13:33.587 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:13:34.349 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:13:34.356 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:34.357 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:13:34.359 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:34.368 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:34.368 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:13:34.369 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:34.378 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:34.379 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:13:34.380 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:34.390 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:34.390 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:13:34.391 [http-nio-8888-exec-8] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:40.749 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:13:40.749 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:13:41.476 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:13:41.487 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:41.488 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:13:41.490 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:41.498 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:41.498 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:13:41.499 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:41.508 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:41.508 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:13:41.510 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:13:41.517 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:13:41.517 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:13:41.518 [http-nio-8888-exec-9] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:14:40.084 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:14:40.084 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:14:40.863 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:14:40.870 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:14:40.871 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:14:40.874 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:14:40.882 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:14:40.882 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:14:40.884 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:14:40.893 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:14:40.893 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:14:40.894 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:14:40.905 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:14:40.905 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:14:40.906 [http-nio-8888-exec-10] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:15:16.967 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:15:16.967 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:15:17.654 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:15:17.662 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:15:17.664 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:15:17.666 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:15:17.674 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:15:17.675 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:15:17.675 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:15:17.685 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:15:17.685 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:15:17.687 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:15:17.695 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:15:17.696 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:15:17.697 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:43.053 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:20:43.059 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:20:43.710 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:20:43.724 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:43.725 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:20:43.728 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:43.736 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:43.737 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:20:43.738 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:43.749 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:43.750 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:20:43.751 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:43.762 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:43.763 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:20:43.765 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:51.125 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:20:51.126 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:20:51.816 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:20:51.828 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:51.828 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:20:51.831 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:51.841 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:51.841 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:20:51.842 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:51.852 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:51.852 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:20:51.853 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:20:51.865 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:20:51.866 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:20:51.866 [http-nio-8888-exec-4] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:50.144 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:22:50.174 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:22:50.956 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:22:51.044 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:51.046 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:22:51.052 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:51.073 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:51.073 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:22:51.075 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:51.089 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:51.089 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:22:51.091 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:51.105 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:51.105 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:22:51.106 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:51.408 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:22:51.408 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:22:52.133 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:22:52.141 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:52.142 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:22:52.145 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:52.155 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:52.155 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:22:52.158 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:52.167 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:52.168 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:22:52.170 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:22:52.177 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:22:52.178 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:22:52.179 [http-nio-8888-exec-2] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:23:44.887 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==>  Preparing: select id, category_id, name, subtitle, main_image, price, stock, status, is_new, is_hot, is_banner, create_time, update_time , sub_images, detail from neuedu_product where is_hot='1' 
+2019-11-12 11:23:44.888 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - ==> Parameters: 
+2019-11-12 11:23:45.603 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.ProductMapper.findProductByIsHot - <==      Total: 4
+2019-11-12 11:23:45.613 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:23:45.614 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 3(Integer)
+2019-11-12 11:23:45.617 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:23:45.626 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:23:45.627 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2019-11-12 11:23:45.628 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:23:45.639 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:23:45.639 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 27(Integer)
+2019-11-12 11:23:45.641 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
+2019-11-12 11:23:45.652 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==>  Preparing: select id, parent_id, main_image,name, status, sort_order, create_time, update_time from neuedu_category where id = ? 
+2019-11-12 11:23:45.652 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - ==> Parameters: 40(Integer)
+2019-11-12 11:23:45.654 [http-nio-8888-exec-3] DEBUG com.neuedu.dao.CategoryMapper.selectByPrimaryKey - <==      Total: 0
