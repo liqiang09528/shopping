@@ -14,6 +14,7 @@
   import Category from './components/Category'
   import Hot from './components/Hot'
   import axios from 'axios'
+  import {mapActions}from 'vuex'
     export default {
       name: "Home",
       components:{
@@ -32,8 +33,13 @@
         this.getHotList()
         //轮播图
         //类别
+        this.setActions()
       },
       methods:{
+        ...mapActions(['isShowFooterBar']),
+        setActions(){
+          this.isShowFooterBar(true)
+        },
         getHotList(){
           axios.get("http://localhost:8888/product/isHot")
             .then(this.getHotListInfo)

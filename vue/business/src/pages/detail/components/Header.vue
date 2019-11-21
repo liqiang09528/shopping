@@ -63,8 +63,9 @@
     background #25a4bb
     height .8rem
     line-height .8rem
-    text-align center
+    text-align left
     .header-fixed-back
+
       color white
       width .64rem
       font-size .4rem

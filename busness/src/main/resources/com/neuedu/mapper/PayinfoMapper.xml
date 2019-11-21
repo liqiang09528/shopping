@@ -78,12 +78,11 @@
       <if test="platformStatus != null">
         platform_status,
       </if>
-      <if test="createTime != null">
+
         create_time,
-      </if>
-      <if test="updateTime != null">
-        update_time,
-      </if>
+
+        update_time
+
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -104,12 +103,7 @@
       <if test="platformStatus != null">
         #{platformStatus,jdbcType=VARCHAR},
       </if>
-      <if test="createTime != null">
-        #{createTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="updateTime != null">
-        #{updateTime,jdbcType=TIMESTAMP},
-      </if>
+      now(),now()
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.neuedu.pojo.Payinfo">
@@ -158,4 +152,9 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="isPay" resultType="string">
+    select platform_status from neuedu_payinfo where order_no=#{orderNo}
+
+  </select>
 </mapper>

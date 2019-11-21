@@ -1,0 +1,294 @@
+2019-11-19 10:16:57.454 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 16328 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 10:16:57.566 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 10:17:00.996 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 10:17:01.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 10:17:01.017 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 10:17:01.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 10:17:01.308 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 10:17:01.308 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3534 ms
+2019-11-19 10:17:01.700 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 10:17:02.065 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 10:17:02.854 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 10:17:02.855 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 10:17:03.013 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 10:17:03.504 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 10:17:03.535 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 10:17:03.539 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 9.345 seconds (JVM running for 12.428)
+2019-11-19 10:18:04.605 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 10:18:04.606 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 10:18:04.614 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-11-19 11:34:35.561 [http-nio-8888-exec-9] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - trade.precreate bizContent:{"out_trade_no":"1574133925572","seller_id":"","total_amount":"9714.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共9714.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}
+2019-11-19 11:34:40.525 [http-nio-8888-exec-9] INFO  sdk.biz.err - Summary^_^10000^_^null^_^ProtocalMustParams:charset=utf-8&method=alipay.trade.precreate&sign=AYMP3VXp8OMIs+267SwZx67rEA7Nvr46hD/Y9CrwP/+fu3B/2VirmGL5efC3krsBpBZPW7ldkOB98Rg6zjcVVe42E/0/FYBGyWD04lDiaDckXjUO8vt75EA27P59RZ+n6OnCbtX+VNKOWmjBsSa9C498Gy4IfEtXh8RPSfXjuA47Xuuawr5BtxIxCctzUCPcKliDhxaPQvyxW+7vw8xFcgVqX/47HYtvXUbiDwgPOYMAvnZTkFp9xkEjWsOrnIe9X4QsPtqcQRlll1ASjKqaZUXVZgp957mnibA/2RJqovtxXvQQ4NaH3z+6CO8JbIsVpOi5nZfSUE3QEZB5GTAoLQ==&notify_url=http://sq6j22.natappfree.cc/order/callback&version=1.0&app_id=2016101700704230&sign_type=RSA2&timestamp=2019-11-19 11:34:35^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.3.0&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1574133925572","seller_id":"","total_amount":"9714.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共9714.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}^_^44ms,4884ms,34ms
+2019-11-19 11:34:40.525 [http-nio-8888-exec-9] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - {"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574133925572","qr_code":"https:\/\/qr.alipay.com\/bax04151sde9o7i7luu4007a"},"sign":"m8XVrcbl3KXtTVv4YFk08ouyGDkfnD5DiZg3JmPYe5aLL3zjCJfLUh7U2wpE8EkRutme3f88gr7O1F/69uCQ+a7NMzdarsG8jfANX47cDT0yXc1qw9wu8Kf2/whsNJlpJoIvbKmerxpoYnIRRCC+Jz384PWCRwz1vfwZDgQdX2nyN2Ua45KGD8Tnnuse5BSrKC9hA0fXaeswmvXV5MqSBUZCzIFZgVkG7v9MBCBBtZnTrK8UHrdz42r1KnRrAml0erpkdL+5KtUziDgMaASVErt4m5y8f0dizCQSy/3GOxEhaQEpGRLgC+YJQlaXbEXmAOVazukgkDFCjrUhaQiuJg=="}
+2019-11-19 11:34:40.527 [http-nio-8888-exec-9] INFO  com.neuedu.alipay.Main - 支付宝预下单成功: )
+2019-11-19 11:34:40.529 [http-nio-8888-exec-9] INFO  com.neuedu.alipay.Main - code:10000, msg:Success
+2019-11-19 11:34:40.529 [http-nio-8888-exec-9] INFO  com.neuedu.alipay.Main - body:{"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574133925572","qr_code":"https:\/\/qr.alipay.com\/bax04151sde9o7i7luu4007a"},"sign":"m8XVrcbl3KXtTVv4YFk08ouyGDkfnD5DiZg3JmPYe5aLL3zjCJfLUh7U2wpE8EkRutme3f88gr7O1F/69uCQ+a7NMzdarsG8jfANX47cDT0yXc1qw9wu8Kf2/whsNJlpJoIvbKmerxpoYnIRRCC+Jz384PWCRwz1vfwZDgQdX2nyN2Ua45KGD8Tnnuse5BSrKC9hA0fXaeswmvXV5MqSBUZCzIFZgVkG7v9MBCBBtZnTrK8UHrdz42r1KnRrAml0erpkdL+5KtUziDgMaASVErt4m5y8f0dizCQSy/3GOxEhaQEpGRLgC+YJQlaXbEXmAOVazukgkDFCjrUhaQiuJg=="}
+2019-11-19 11:34:40.529 [http-nio-8888-exec-9] INFO  com.neuedu.alipay.Main - filePath:E:/Product/Shopping/image/qr-1574133925572.png
+2019-11-19 19:46:28.153 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 20888 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 19:46:28.159 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 19:46:30.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 19:46:30.324 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 19:46:30.325 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 19:46:30.326 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 19:46:30.442 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 19:46:30.442 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2141 ms
+2019-11-19 19:46:30.585 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 19:46:30.816 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 19:46:31.336 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 19:46:31.337 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 19:46:31.485 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 19:46:31.894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 19:46:31.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 19:46:31.950 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.885 seconds (JVM running for 6.492)
+2019-11-19 19:46:41.780 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 19:46:41.780 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 19:46:41.788 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-11-19 19:47:13.105 [http-nio-8888-exec-5] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - trade.precreate bizContent:{"out_trade_no":"1574164013493","seller_id":"","total_amount":"1780.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共1780.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}
+2019-11-19 19:47:14.182 [http-nio-8888-exec-5] INFO  sdk.biz.err - Summary^_^10000^_^null^_^ProtocalMustParams:charset=utf-8&method=alipay.trade.precreate&sign=S7Y5DZnbO1KEIxORmOZ0AVZ8mVeNngztv6jp4oLNoY+WNaVLMF6fqKXKaGpWpyFfgfM5nwdDyPC8ETXUdXcK+KWieXGGhqo3xogEQU498YGWDDOHxfcATPOsP6AtwZJMgTVt6WtTlmrZFdGc5ynhSAPWgEMEQLgoULovw0+Y61iOd3odHUT1oPTN7s2pjFlwTca1m2kaQLTLzLQa1osoA3HWN9MA8NSJ47u6LgBpnN5xka/SOUH96RjYYMpLIpKeUr/s1yX5oPnJy1uMaNZ7MLK7l1m6E3oPqWyrXYaANpXOVIoBt8pWKJGKEKL+X0bemJ7giRsjCIPTXI9BN9SaPw==&notify_url=http://sq6j22.natappfree.cc/order/callback&version=1.0&app_id=2016101700704230&sign_type=RSA2&timestamp=2019-11-19 19:47:13^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.3.0&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1574164013493","seller_id":"","total_amount":"1780.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共1780.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}^_^40ms,996ms,39ms
+2019-11-19 19:47:14.182 [http-nio-8888-exec-5] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - {"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574164013493","qr_code":"https:\/\/qr.alipay.com\/bax00876sup4vdpdwjlk00ab"},"sign":"gytij7tstguuNxsXxzFncOSMskVWPtH+HcP/ztD8Hjb472mUoj4QnBtS6LHMzXWpMHuQJgNhuzpzyY8RK5neJGPCtFeQ7wXNvJayZtm411KzKpqXQeqxDf+h/V8xcbHhm7Y/j1j3OL9wM1vCz38nbRIUSwOCZ2Ak49sIqLXz1rXoJU4YVXl7HQ8w2+yleGwj19LDiPHvyMV3caEFnqFxxUcBZEYgl+HUrvEVNzbI60avaTS9DJFpaAZR/VrIb9yW3B7RYfBIQ7DiV/v+a37zU9IGPyF0SwcrbnCivCGRSMbOq0bNXgJQIze42+6V3DtYdWALx5dwNw1rLDXLgglalg=="}
+2019-11-19 19:47:14.184 [http-nio-8888-exec-5] INFO  com.neuedu.alipay.Main - 支付宝预下单成功: )
+2019-11-19 19:47:14.184 [http-nio-8888-exec-5] INFO  com.neuedu.alipay.Main - code:10000, msg:Success
+2019-11-19 19:47:14.185 [http-nio-8888-exec-5] INFO  com.neuedu.alipay.Main - body:{"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574164013493","qr_code":"https:\/\/qr.alipay.com\/bax00876sup4vdpdwjlk00ab"},"sign":"gytij7tstguuNxsXxzFncOSMskVWPtH+HcP/ztD8Hjb472mUoj4QnBtS6LHMzXWpMHuQJgNhuzpzyY8RK5neJGPCtFeQ7wXNvJayZtm411KzKpqXQeqxDf+h/V8xcbHhm7Y/j1j3OL9wM1vCz38nbRIUSwOCZ2Ak49sIqLXz1rXoJU4YVXl7HQ8w2+yleGwj19LDiPHvyMV3caEFnqFxxUcBZEYgl+HUrvEVNzbI60avaTS9DJFpaAZR/VrIb9yW3B7RYfBIQ7DiV/v+a37zU9IGPyF0SwcrbnCivCGRSMbOq0bNXgJQIze42+6V3DtYdWALx5dwNw1rLDXLgglalg=="}
+2019-11-19 19:47:14.185 [http-nio-8888-exec-5] INFO  com.neuedu.alipay.Main - filePath:E:/Product/Shopping/image/qr-1574164013493.png
+2019-11-19 19:47:57.662 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 16268 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 19:47:57.667 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 19:47:59.484 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 19:47:59.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 19:47:59.497 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 19:47:59.498 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 19:47:59.633 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 19:47:59.633 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1867 ms
+2019-11-19 19:47:59.827 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 19:48:00.025 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 19:48:00.614 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 19:48:00.614 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 19:48:00.826 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 19:48:01.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 19:48:01.404 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 19:48:01.409 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.903 seconds (JVM running for 6.9)
+2019-11-19 19:49:04.508 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 19:49:04.508 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 19:49:04.517 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-11-19 20:13:46.780 [http-nio-8888-exec-7] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - trade.precreate bizContent:{"out_trade_no":"1574165626543","seller_id":"","total_amount":"8468.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共8468.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}
+2019-11-19 20:13:55.408 [http-nio-8888-exec-7] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - {"null_response":{"code":"20000","msg":"Service Currently Unavailable","sub_code":"aop.unknow-error","sub_msg":"系统繁忙"}}
+2019-11-19 21:03:57.371 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 34412 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 21:03:57.375 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 21:03:59.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 21:03:59.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:03:59.228 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 21:03:59.228 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 21:03:59.327 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:03:59.328 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1843 ms
+2019-11-19 21:03:59.434 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 21:03:59.603 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 21:04:00.133 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 21:04:00.133 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 21:04:00.277 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:04:00.676 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:04:00.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 21:04:00.733 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.406 seconds (JVM running for 5.819)
+2019-11-19 21:06:11.715 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:06:11.717 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:06:11.728 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-11-19 21:26:30.789 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 35760 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 21:26:30.795 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 21:26:32.919 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 21:26:32.933 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:26:32.934 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 21:26:32.934 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 21:26:33.058 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:26:33.058 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2124 ms
+2019-11-19 21:26:33.256 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 21:26:33.454 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 21:26:33.902 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 21:26:33.902 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 21:26:34.048 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:26:34.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:26:34.466 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 21:26:34.469 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.648 seconds (JVM running for 6.092)
+2019-11-19 21:26:44.014 [http-nio-8888-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:26:44.015 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:26:44.028 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-11-19 21:35:11.393 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 33128 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 21:35:11.398 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 21:35:14.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 21:35:14.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:35:14.606 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 21:35:14.606 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 21:35:14.793 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:35:14.793 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3267 ms
+2019-11-19 21:35:15.020 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 21:35:16.141 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 21:35:17.204 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 21:35:17.205 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 21:35:17.573 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:35:18.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:35:18.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 21:35:18.339 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 8.982 seconds (JVM running for 12.017)
+2019-11-19 21:35:35.574 [http-nio-8888-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:35:35.575 [http-nio-8888-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:35:35.582 [http-nio-8888-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-11-19 21:44:47.817 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 16480 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 21:44:47.822 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 21:44:49.919 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 21:44:49.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:44:49.932 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 21:44:49.932 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 21:44:50.050 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:44:50.051 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2072 ms
+2019-11-19 21:44:50.183 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 21:44:50.407 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 21:44:50.860 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 21:44:50.861 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 21:44:51.007 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:44:51.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:44:51.395 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 21:44:51.399 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.656 seconds (JVM running for 6.084)
+2019-11-19 21:45:09.066 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:45:09.067 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:45:09.076 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-11-19 21:46:30.096 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 35352 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-19 21:46:30.101 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-19 21:46:31.860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-19 21:46:31.873 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:46:31.874 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-19 21:46:31.875 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 21:46:32.020 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:46:32.020 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1824 ms
+2019-11-19 21:46:32.134 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-19 21:46:32.328 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-19 21:46:32.856 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-19 21:46:32.856 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102179916514
+, appid: 2016101700704230
+, 商户RSA私钥: MIIEvA******2gBw==
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+2019-11-19 21:46:33.030 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:46:33.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-19 21:46:33.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-19 21:46:33.445 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.384 seconds (JVM running for 5.804)
+2019-11-19 21:46:42.256 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:46:42.257 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:46:42.269 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-11-19 21:46:59.305 [http-nio-8888-exec-3] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - trade.precreate bizContent:{"out_trade_no":"1574171219027","seller_id":"","total_amount":"8468.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共8468.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}
+2019-11-19 21:47:00.057 [http-nio-8888-exec-3] INFO  sdk.biz.err - Summary^_^10000^_^null^_^ProtocalMustParams:charset=utf-8&method=alipay.trade.precreate&sign=PXLT/wiPlQEG/6hYnDap7xaAcA0KsnW4LAf/zzKCFUp2oC4YlPA4Auo0H6y4kLVmX+Yor92By51UaCDIOWIYAjzQ/3RwCDGnqbDRjjxnWMSk7fRnWVqCV7Xdk5E9Tzhsgq9vzi9nHnVs004IH+z7U8LTt0rnvO8rjJEHiIq+H51/evPhP1eakjnZZMV8CJHtHjEBXZW3jJ7PMR3uFHskO0DCQEeJ2MX7S9iF2PVyhbMcVGSKWlGVMoK50fRRpq9IZ5OvTZdFhjoclXUbpxFnbdkskEGO04isiTLWrdDLeh7I+3+Egsu9UMlUw7+BGeEZ5AUWV7/5FidR11K3H8ldfQ==&notify_url=http://w89wyg.natappfree.cc/order/callback&version=1.0&app_id=2016101700704230&sign_type=RSA2&timestamp=2019-11-19 21:46:59^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.3.0&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1574171219027","seller_id":"","total_amount":"8468.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共8468.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}^_^53ms,624ms,72ms
+2019-11-19 21:47:00.057 [http-nio-8888-exec-3] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - {"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574171219027","qr_code":"https:\/\/qr.alipay.com\/bax08566140phkqsbqzx0073"},"sign":"TzBaVnEbA+UsmfgaDGySqzUWLV8vo2aJDgk/YokkMrIY1mHLL3pjvP//YTH0B3yBKNx1xn1cx703tXUjIDFQmqDmrKkqZFJYtlcx58COmJe02kgI9Vz6OreshwZLZIJXIAN6k7VXWGXIMo2FeEU4EWnJt9TyiJsh8Qw0DE8kvZINeaDz85V9aT4Af+HUhhG4XTbKOtrEdEM4TQn8KXFZiIe/PJt0cq341xtApg9jJ9r9DqqjYo3PE2YXSDctvnCIWVxw5rUEM/cpDE26bxviNUC/6/OvwEdIabM2pNIM7To234jA/9+VZ+1mTBgmHpSSALXoUGs4gW3YT4CxOnhZRQ=="}
+2019-11-19 21:47:00.058 [http-nio-8888-exec-3] INFO  com.neuedu.alipay.Main - 支付宝预下单成功: )
+2019-11-19 21:47:00.059 [http-nio-8888-exec-3] INFO  com.neuedu.alipay.Main - code:10000, msg:Success
+2019-11-19 21:47:00.059 [http-nio-8888-exec-3] INFO  com.neuedu.alipay.Main - body:{"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574171219027","qr_code":"https:\/\/qr.alipay.com\/bax08566140phkqsbqzx0073"},"sign":"TzBaVnEbA+UsmfgaDGySqzUWLV8vo2aJDgk/YokkMrIY1mHLL3pjvP//YTH0B3yBKNx1xn1cx703tXUjIDFQmqDmrKkqZFJYtlcx58COmJe02kgI9Vz6OreshwZLZIJXIAN6k7VXWGXIMo2FeEU4EWnJt9TyiJsh8Qw0DE8kvZINeaDz85V9aT4Af+HUhhG4XTbKOtrEdEM4TQn8KXFZiIe/PJt0cq341xtApg9jJ9r9DqqjYo3PE2YXSDctvnCIWVxw5rUEM/cpDE26bxviNUC/6/OvwEdIabM2pNIM7To234jA/9+VZ+1mTBgmHpSSALXoUGs4gW3YT4CxOnhZRQ=="}
+2019-11-19 21:47:00.059 [http-nio-8888-exec-3] INFO  com.neuedu.alipay.Main - filePath:E:/Product/Shopping/image/qr-1574171219027.png
+2019-11-19 21:48:47.334 [http-nio-8888-exec-6] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - trade.precreate bizContent:{"out_trade_no":"1574171219027","seller_id":"","total_amount":"8468.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共8468.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}
+2019-11-19 21:48:47.713 [http-nio-8888-exec-6] INFO  sdk.biz.err - Summary^_^10000^_^null^_^ProtocalMustParams:charset=utf-8&method=alipay.trade.precreate&sign=YeO0ddVBV1uzkpI6u8On78pnS5neUdp0srSDLNDhjniISpXavZvQhHVk8ttGbsr5YyVk6K+V34jNJlPw479/t1Q1CPqHbBPXdPBAdjhFn+0eob8SN1a6iQaavQvWin2gkQvUnu65C51weobV76WjDR9B3x1W24sSQvJXh3rL3gKQKk84Zrc9b/Y5AbIbgsg3JhSPYXaRv/br5rAJJ88ju4NU7PT4BFOxq2XxPKp915oWUK1J8xioD71PNwVWjpbxfTzmb23vaqd9TlfGbxNmo9gDjk46DOd1XaIZ+4CgSLrtThCJLOVcETMyRfM3sc+vGGE8cVem+XBUTulwFIPauw==&notify_url=http://w89wyg.natappfree.cc/order/callback&version=1.0&app_id=2016101700704230&sign_type=RSA2&timestamp=2019-11-19 21:48:47^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.3.0&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1574171219027","seller_id":"","total_amount":"8468.00","undiscountable_amount":"0","subject":"【睿乐购】平台商品支付","body":"购买商品共8468.00元","goods_detail":[],"operator_id":"test_operator_id","store_id":"test_store_id","extend_params":{"sys_service_provider_id":"2088100200300400500"},"timeout_express":"120m"}^_^26ms,348ms,5ms
+2019-11-19 21:48:47.713 [http-nio-8888-exec-6] INFO  c.a.demo.trade.service.impl.AlipayTradeServiceImpl - {"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574171219027","qr_code":"https:\/\/qr.alipay.com\/bax04633eivnputzxd5t00e7"},"sign":"JLIXwQF+996tt/HYJI7sewEYtuEhMEggRmKlXJuw79D61FatzW8NOrpZAI73s8ju75QNJq++Qh3CM0qWa7hiziWKLNWkoU5QTZmVX0MWmEZSAimGybpW2R6OX6WpDvFA+PMHDAtSDOOQ3hTAxTFqFRhhR8mZI7Cdl1Qjht2JGeogoYgKnAm/pY96d3ETXA09MMDNiQhSTCVR4cVb0UKS88WQD//TBmorOORvS11z7xAaYfXgVAVwnfqN0lDhIT4VulNUDGWlBc8t9uoSDf31h2AtlyncbII/IAJF1iYz/OIK9cQT9NvT5aqhx0oJWk5j8qWz4pWdlQcYUtNT2QRF/Q=="}
+2019-11-19 21:48:47.713 [http-nio-8888-exec-6] INFO  com.neuedu.alipay.Main - 支付宝预下单成功: )
+2019-11-19 21:48:47.713 [http-nio-8888-exec-6] INFO  com.neuedu.alipay.Main - code:10000, msg:Success
+2019-11-19 21:48:47.713 [http-nio-8888-exec-6] INFO  com.neuedu.alipay.Main - body:{"alipay_trade_precreate_response":{"code":"10000","msg":"Success","out_trade_no":"1574171219027","qr_code":"https:\/\/qr.alipay.com\/bax04633eivnputzxd5t00e7"},"sign":"JLIXwQF+996tt/HYJI7sewEYtuEhMEggRmKlXJuw79D61FatzW8NOrpZAI73s8ju75QNJq++Qh3CM0qWa7hiziWKLNWkoU5QTZmVX0MWmEZSAimGybpW2R6OX6WpDvFA+PMHDAtSDOOQ3hTAxTFqFRhhR8mZI7Cdl1Qjht2JGeogoYgKnAm/pY96d3ETXA09MMDNiQhSTCVR4cVb0UKS88WQD//TBmorOORvS11z7xAaYfXgVAVwnfqN0lDhIT4VulNUDGWlBc8t9uoSDf31h2AtlyncbII/IAJF1iYz/OIK9cQT9NvT5aqhx0oJWk5j8qWz4pWdlQcYUtNT2QRF/Q=="}
+2019-11-19 21:48:47.714 [http-nio-8888-exec-6] INFO  com.neuedu.alipay.Main - filePath:E:/Product/Shopping/image/qr-1574171219027.png

@@ -1,0 +1,8 @@
+2019-11-17 21:08:43.122 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 21:12:16.387 [http-nio-8888-exec-10] WARN  com.alibaba.druid.pool.DruidDataSource - get connection timeout retry : 1
+2019-11-17 21:12:43.193 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 21:12:55.792 [http-nio-8888-exec-1] WARN  com.alibaba.druid.pool.DruidDataSource - get connection timeout retry : 1
+2019-11-17 21:14:07.866 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 23:40:41.811 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 23:45:34.345 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-17 23:46:34.799 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.

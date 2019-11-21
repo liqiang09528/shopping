@@ -2,6 +2,10 @@ package com.neuedu.dao;
 
 import com.neuedu.pojo.Product;
 import com.neuedu.pojo.ProductWithBLOBs;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
 
 public interface ProductMapper {
     /**
@@ -59,4 +63,20 @@ public interface ProductMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(Product record);
+
+    /**
+     *根据商品id或名字查询商品
+     * */
+     List<ProductWithBLOBs> findProductByNameAndId(@Param("id") String id,
+                                                 @Param("name") String name);
+     /**
+      * 扣库存
+      * */
+     int reduceStock(@Param("id") Integer productId,
+                     @Param("stock") Integer stock);
+
+     /**
+      * 商品热销推荐
+      * */
+     List<ProductWithBLOBs> findProductByIsHot();
 }

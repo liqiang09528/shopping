@@ -2,6 +2,8 @@ package com.neuedu.controller.backend;
 
 import com.neuedu.common.ResponseCode;
 import com.neuedu.common.ServerResponse;
+import com.neuedu.vo.ImageVO;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -14,15 +16,21 @@ import java.util.UUID;
 @RequestMapping("/manager/")
 public class UploadController {
 
-    @GetMapping("/upload")
+    @Value("${business.imageHost}")
+    private String imageHost;
+
+    @GetMapping("upload")
     public String upload(){
         return "upload";
     }
 
-    public String upload(@RequestParam("uploadfile") MultipartFile uploadfile){
+    @ResponseBody
+    @PostMapping("upload")
+    public ServerResponse upload(@RequestParam("uploadfile") MultipartFile uploadfile){
 
         if(uploadfile==null || uploadfile.getOriginalFilename().equals("")){
 
+//            return "图片必须上传";
             return ServerResponse.serverResponseByError(ResponseCode.ERROR,"图片必须上传");
         }
 
@@ -34,7 +42,7 @@ public class UploadController {
         //生成新的文件名
         String newFilename= UUID.randomUUID().toString()+extendName;
 
-        File mkdir=new File("f:/upload");
+        File mkdir=new File("E:/Product/Shopping/image");
         if(!mkdir.exists()){
             mkdir.mkdirs();
         }

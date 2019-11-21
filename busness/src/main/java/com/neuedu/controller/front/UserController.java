@@ -7,6 +7,7 @@ import com.neuedu.pojo.User;
 import com.neuedu.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 
-
+@CrossOrigin
 @RestController//返回json
 @RequestMapping("/user")
 public class UserController {
@@ -51,7 +52,6 @@ public class UserController {
      */
     @RequestMapping("/forget_get_question/{username}")
     public ServerResponse forget_get_question(@PathVariable("username") String username){
-
         return userService.forget_get_question(username);
     }
     /**

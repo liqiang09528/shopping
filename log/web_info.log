@@ -1,15 +1,15 @@
-2019-11-12 08:36:13.175 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 5048 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
-2019-11-12 08:36:13.247 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
-2019-11-12 08:36:15.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2019-11-12 08:36:15.504 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2019-11-12 08:36:15.505 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2019-11-12 08:36:15.506 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2019-11-12 08:36:15.628 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2019-11-12 08:36:15.628 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2281 ms
-2019-11-12 08:36:15.799 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
-2019-11-12 08:36:16.056 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-2019-11-12 08:36:16.871 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
-2019-11-12 08:36:16.874 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+2019-11-21 09:05:10.310 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 13036 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
+2019-11-21 09:05:10.341 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
+2019-11-21 09:05:13.536 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-11-21 09:05:13.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-11-21 09:05:13.553 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-21 09:05:13.589 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-21 09:05:13.776 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-21 09:05:13.776 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3313 ms
+2019-11-21 09:05:14.054 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-11-21 09:05:14.467 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-21 09:05:15.793 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+2019-11-21 09:05:15.795 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
 , 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
 , pid: 2088102179916514
 , appid: 2016101700704230
@@ -24,43 +24,7 @@
 , 交易保障调度延迟(秒): 5
 , 交易保障调度间隔(秒): 900
 }
-2019-11-12 08:36:17.028 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-12 08:36:17.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2019-11-12 08:36:17.569 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
-2019-11-12 08:36:17.575 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 5.881 seconds (JVM running for 13.479)
-2019-11-12 08:36:24.259 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-11-12 08:36:24.260 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2019-11-12 08:36:24.270 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
-2019-11-12 11:22:36.751 [main] INFO  com.neuedu.BusnessApplication - Starting BusnessApplication on 6IXHRL9EJ5D9T3Y with PID 25844 (E:\Java2\busness\target\classes started by Administrator in E:\Java2\busness)
-2019-11-12 11:22:36.756 [main] INFO  com.neuedu.BusnessApplication - The following profiles are active: prod
-2019-11-12 11:22:38.894 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2019-11-12 11:22:38.904 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2019-11-12 11:22:38.905 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2019-11-12 11:22:38.906 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2019-11-12 11:22:39.012 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2019-11-12 11:22:39.012 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2126 ms
-2019-11-12 11:22:39.130 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
-2019-11-12 11:22:39.305 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-2019-11-12 11:22:39.781 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
-2019-11-12 11:22:39.781 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
-, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
-, pid: 2088102179916514
-, appid: 2016101700704230
-, 商户RSA私钥: MIIEvA******2gBw==
-, 商户RSA公钥: MIIBIj******IDAQAB
-, 支付宝RSA公钥: MIIBIj******IDAQAB
-, 签名类型: RSA2
-, 查询重试次数: 5
-, 查询间隔(毫秒): 5000
-, 撤销尝试次数: 3
-, 撤销重试间隔(毫秒): 2000
-, 交易保障调度延迟(秒): 5
-, 交易保障调度间隔(秒): 900
-}
-2019-11-12 11:22:39.922 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-12 11:22:40.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2019-11-12 11:22:40.367 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
-2019-11-12 11:22:40.371 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 4.67 seconds (JVM running for 6.093)
-2019-11-12 11:22:49.296 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-11-12 11:22:49.297 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2019-11-12 11:22:49.307 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-11-21 09:05:16.601 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 09:05:18.310 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-11-21 09:05:18.356 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-11-21 09:05:18.356 [main] INFO  com.neuedu.BusnessApplication - Started BusnessApplication in 10.123 seconds (JVM running for 13.155)

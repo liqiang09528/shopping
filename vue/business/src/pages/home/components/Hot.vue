@@ -2,7 +2,7 @@
     <div>
       <div class="title">热销推荐</div>
 
-      <ul>
+      <dl>
         <router-link tag="li" :to="'/detail/'+item.id" class="item border-bottom" v-for="(item,index) of hotList" :key="index">
           <img class="item-img" :src="item.imageHost+item.mainImage">
           <div class="item-info">
@@ -11,7 +11,7 @@
             <p class="item-price">￥{{item.price}}</p>
           </div>
         </router-link>
-      </ul>
+      </dl>
     </div>
 </template>
 

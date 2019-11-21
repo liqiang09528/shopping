@@ -1,6 +1,9 @@
 package com.neuedu.dao;
 
 import com.neuedu.pojo.Shipping;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface ShippingMapper {
     /**
@@ -50,4 +53,6 @@ public interface ShippingMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(Shipping record);
+
+    List<Shipping> selectShippingByUserId(@Param("userId") Integer userId);
 }

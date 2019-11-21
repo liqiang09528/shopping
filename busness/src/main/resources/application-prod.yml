@@ -19,9 +19,20 @@ spring:
       min-idle: 1
       test-on-borrow: true
       test-on-return: true
+
   thymeleaf:
     mode: HTML5
 
 mybatis:
   mapper-locations:  classpath*:com/neuedu/mapper/*Mapper.xml
   config-location: classpath:MybatisConfig.xml
+#分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: countSql
+#输出sql到控制台
+logging:
+  level:
+    com.neuedu.dao: debug

@@ -38,4 +38,6 @@ public interface ICategoryService {
      * */
 
     public ServerResponse deepCategory(@PathVariable("categoryId") Integer categoryId);
+
+    ServerResponse<Category> selectCategory(Integer categoryId);
 }
